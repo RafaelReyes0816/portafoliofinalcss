@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(37, 35, 35);
+    color: white;
+    animation-duration: 2s;
+    animation-name: animacion-principal;
+}
+@keyframes animacion-principal{
+    from {
+        margin-right: 100%;
+        margin-top: 50%;
+        width: 150%;
+      }
+      to {
+        margin-right: 0%;
+        margin-top: 0%;
+        width: 100%;
+      }
+}
+.titulo__texto{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(248, 248, 65);
+}
+.titulo__subtext-saludo{
+    text-align: center;
+    font-weight: bold;
+}
+.titulo__subtext-estudio{
+    text-align: center;
+    font-weight: bold;
+}
+.subtitulo{
+    text-align: center;
+    font-weight: bold;
+    margin: 25px;
+}
+.subtitulo__titulo{
+    color: rgb(248, 248, 65);
+}
+.subtitulo__textocsharp{
+    color: blueviolet;
+    font-weight: bold;
+}
+.subtitulo__logocsharp{
+    border-radius: 50%;
+    border: 5px blueviolet solid;
+    width: 60px;
+    height: 60px;
+}
+.subtitulo__textohtml{
+    color: orangered;
+    font-weight: bold;
+}
+.subtitulo__logohtml{
+    border-radius: 50%;
+    border: 5px orangered solid;
+    width: 60px;
+    height: 60px;
+}
+.subtitulo__textojava{
+    color: yellow;
+    font-weight: bold;
+}
+.subtitulo__logojava{
+    border-radius: 50%;
+    border: 5px yellow solid;
+    width: 60px;
+    height: 60px;
+}
+.trabajos{
+    text-align: center;
+    margin: 25px;
+}
+.trabajos__titulo{
+    color: rgb(248, 248, 65);
+}
+.proyectos{
+    text-align: center;
+    margin: 25px;
+    color: rgb(248, 248, 65);
+}
+.contactos{
+    text-align: center;
+    margin: 25px;
+}
+.contactos__titulo{
+    color: rgb(248, 248, 65);
+}
+.formulario{
+    text-align: center;
+}
+.formulario__texto{
+    color: rgb(248, 248, 65);
+}
+.pies{
+    text-align: center;
+    margin: 25px;
+}
+.pies__texto{
+    color: rgb(248, 248, 65);
+}
+.proyectostitulo{
+    text-align: center;
+}
+.contenido{
+    text-align: center;
+    font-weight: bold;
+}
+.piesproyec{
+    text-align: center;
+}
+.proyectos__boton{
+    width: 10%;
+    color: whitesmoke;
+}
+.proyectos__boton:hover{
+    background-color: lightblue;
+    border: 4px solid lightblue;
+    border-radius: 5%;
+    padding: 0px;
+}
+.proyectos__boton::before{
+    content: "Proyectos y Certificados";
+    color: gray;
+    border:3px solid whitesmoke;
+    width: 20px;
+    text-align: center;
+}
+.proyectostitulo__titulo{
+    color: rgb(248, 248, 65);
+}
+.contenido__titulofinanz{
+    color: rgb(248, 248, 65);
+}
+.contenido__texto-certificados{
+    color: rgb(248, 248, 65);
+}
+.contenido__texto-otros{
+    color: rgb(248, 248, 65);
+}
+.contactos__logotwitter{
+    border-radius: 50%;
+    border: 5px white solid;
+    width: 60px;
+    height: 60px;
+}
+.contactos__botontwitter{
+    width: 10%;
+    color: whitesmoke;
+}
+.contactos__botontwitter:hover{
+    background-color: lightblue;
+    border: 4px solid lightblue;
+    border-radius: 5%;
+    padding: 0px;
+}
+.contactos__botontwitter::before{
+    content: "Twitter";
+    color: gray;
+    border:3px solid whitesmoke;
+    width: 20px;
+    text-align: center;
+}
+.contactos__logodiscord{
+    border-radius: 50%;
+    border: 5px whitesmoke solid;
+    width: 60px;
+    height: 60px;
+}
+.contactos__botondiscord{
+    width: 10%;
+    color: whitesmoke;
+}
+.contactos__botondiscord:hover{
+    background-color: lightblue;
+    border: 4px solid lightblue;
+    border-radius: 5%;
+    padding: 0px;
+}
+.contactos__botondiscord::before{
+    content: "Discord";
+    color: gray;
+    border:3px solid whitesmoke;
+    width: 20px;
+    text-align: center;
+}
+.contenido__imagen-compra{
+    width: 250px;
+    height: 450px;
+    border: 5px black solid;
+    border-radius: 10%;
+}
+.contenido__imagen-venta{
+    width: 250px;
+    height: 450px;
+    border: 5px black solid;
+    border-radius: 10%;
+}
+.contenido__imagen-calcompra{
+    width: 250px;
+    height: 350px;
+    border: 5px black solid;
+    border-radius: 10%;
+}
+.contenido__imagen-calcventa{
+    width: 250px;
+    height: 350px;
+    border: 5px black solid;
+    border-radius: 10%;
+}
+.contenido__diploma-pelicula1{
+    width: 750px;
+    height: 650px;
+    border: 5px black solid;
+    border-radius: 25%;
+}
+.contenido__diploma-pelicula2{
+    width: 750px;
+    height: 650px;
+    border: 5px black solid;
+    border-radius: 25%;
+}
+.contenido__diploma-excelencia1{
+    width: 750px;
+    height: 650px;
+    border: 5px black solid;
+    border-radius: 25%;
+}
+.contenido__diploma-honorprimero1{
+    width: 750px;
+    height: 650px;
+    border: 5px black solid;
+    border-radius: 25%;
+}
+.contenido__diploma-honorsegundo2{
+    width: 750px;
+    height: 650px;
+    border: 5px black solid;
+    border-radius: 25%;
+}
